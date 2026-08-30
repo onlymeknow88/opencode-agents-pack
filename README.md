@@ -48,25 +48,6 @@ npx github:onlymeknow88/opencode-agents-pack --force
 }
 ```
 
-## Publish ke GitHub Packages (opsional)
-
-Jika ingin publish sebagai npm package pribadi:
-
-```bash
-# 1. Update package.json
-#    - Ganti "name" ke "@onlymeknow88/opencode-agents-pack"
-#    - Update "repository" dan "homepage"
-
-# 2. Login ke GitHub Packages
-npm login --registry=https://npm.pkg.github.com
-
-# 3. Publish
-npm publish --access public
-
-# 4. Install dari GitHub Packages
-npx @onlymeknow88/opencode-agents-pack
-```
-
 ## Kompatibilitas
 
 - ✅ opencode
