@@ -21,11 +21,11 @@
     "rules",
     "skills"
   ],
-  "author": "your-github-username",
+  "author": "onlymeknow88",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-github-username/opencode-agents-pack.git"
+    "url": "git+https://github.com/onlymeknow88/opencode-agents-pack.git"
   },
-  "homepage": "https://github.com/your-github-username/opencode-agents-pack#readme"
+  "homepage": "https://github.com/onlymeknow88/opencode-agents-pack#readme"
 }
