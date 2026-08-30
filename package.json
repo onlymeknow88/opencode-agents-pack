@@ -1,0 +1,31 @@
+{
+  "name": "opencode-agents-pack",
+  "version": "1.0.0",
+  "description": "Personal pack of agents, commands, rules, and skills for opencode / Everything Claude Code. Supports any model agent.",
+  "bin": {
+    "opencode-agents-pack": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "templates"
+  ],
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "opencode",
+    "claude-code",
+    "agents",
+    "cli",
+    "template",
+    "rules",
+    "skills"
+  ],
+  "author": "your-github-username",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-github-username/opencode-agents-pack.git"
+  },
+  "homepage": "https://github.com/your-github-username/opencode-agents-pack#readme"
+}
