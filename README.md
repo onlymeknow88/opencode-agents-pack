@@ -9,16 +9,16 @@ Install ke proyek manapun dengan `npx`:
 
 ```bash
 # Install ke folder saat ini
-npx opencode-agents-pack
+npx github:onlymeknow88/opencode-agents-pack
 
 # Install ke folder tertentu
-npx opencode-agents-pack ./my-new-project
+npx github:onlymeknow88/opencode-agents-pack ./my-new-project
 
 # Lihat isi pack
-npx opencode-agents-pack --list
+npx github:onlymeknow88/opencode-agents-pack --list
 
 # Force overwrite jika sudah ada
-npx opencode-agents-pack --force
+npx github:onlymeknow88/opencode-agents-pack --force
 ```
 
 ## Isi Pack
@@ -54,7 +54,7 @@ Jika ingin publish sebagai npm package pribadi:
 
 ```bash
 # 1. Update package.json
-#    - Ganti "name" ke "@your-github-username/opencode-agents-pack"
+#    - Ganti "name" ke "@onlymeknow88/opencode-agents-pack"
 #    - Update "repository" dan "homepage"
 
 # 2. Login ke GitHub Packages
@@ -64,7 +64,7 @@ npm login --registry=https://npm.pkg.github.com
 npm publish --access public
 
 # 4. Install dari GitHub Packages
-npx @your-github-username/opencode-agents-pack
+npx @onlymeknow88/opencode-agents-pack
 ```
 
 ## Kompatibilitas
@@ -79,5 +79,5 @@ MIT
 
 ---
 
-**Author:** your-github-username  
-**Repo:** https://github.com/your-github-username/opencode-agents-pack
+**Author:** onlymeknow88  
+**Repo:** https://github.com/onlymeknow88/opencode-agents-pack
